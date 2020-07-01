@@ -6,7 +6,6 @@ function respMenu() {
       a.className = "topnav";
     }
   }
-
 document.addEventListener("click", function(rs){
 const iconShows = event.target.closest('.icon');
 if(iconShows !== null) {
