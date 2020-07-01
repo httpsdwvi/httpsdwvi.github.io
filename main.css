@@ -7,8 +7,14 @@ p {
   color: #FFF;
 }       
 .topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   overflow: hidden;
   background-color: #FFF;
+}
+#top {
+  cursor: pointer;
 }
 .topnav a {
   float: left;
@@ -23,10 +29,27 @@ p {
   .topnav a:not(:first-child) {
     display: none;
   }
+  .topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
   .topnav a.icon {
+    height: 40px;
+    width: 40px;
+    padding: 0;
     float: right;
     display: block;
   }
+  .fa-bars:hover {
+    transition: 450ms;
+    color: #FFF;
+  }
+  .topnav a:hover {
+    transition: 500ms;
+    background-color: #9A93F2;
+    color: #FFF;
+  }  
   .imgcenter {
     display: block;
     margin-left: auto;
@@ -49,14 +72,18 @@ p {
     text-align: left;
   }
 }
-.topnav a:hover {
-  transition: 500ms;
-  background-color: #211F1F;
+h1 {
+  padding-left: 35px;
   color: #FFF;
 }
 .fa-bars {
   color: #9A93F2;
-}  
+}
+.topnav a:hover {
+  transition: 500ms;
+  background-color: #9A93F2;
+  color: #FFF;
+}   
 .topnav a.active {
   background-color: #9A93F2;
   color: white;
