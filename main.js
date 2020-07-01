@@ -6,7 +6,18 @@ function respMenu() {
       a.className = "topnav";
     }
   }
-document.addEventListener("click", function(rs){
+  
+function backTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+document.addEventListener("click", function(){
+  document.getElementById("top");
+  backTop();
+})
+
+document.addEventListener("click", function(){
 const iconShows = event.target.closest('.icon');
 if(iconShows !== null) {
     respMenu();
