@@ -2,10 +2,6 @@ body {
   margin: 0;
   background-color: #000;
 }
-h2, p {
-  text-align: center;
-  color: #000;
-}
 p {
   text-align: center;
   color: #FFF;
@@ -72,6 +68,10 @@ p {
   font-size: 40px;
   text-align: center;
 }
+.material-icons {
+  padding: 5px;
+  color: #FFF;
+}
 .fa {
   padding: 10px;
   text-decoration: none;
@@ -82,15 +82,29 @@ p {
   opacity: 0.8;
 }
 .fa-github {
-  color: white;
+  color: #FFF;
 } 
 .fa-linkedin {
-  color: white;
+  color: #FFF;
+}
+.fa-instagram {
+  color: #FFF;
 }
 .imgcenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+h4 {
+  padding-left: 7.5px;
+  text-align: left;
+  color: #FFF;
+}
+.details p {
+  font-size: 20px;
+  color: #FFF;
+  padding-left: 50px;
+  text-align: left;
 }
 #footer {
   position: relative;
