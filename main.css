@@ -2,10 +2,6 @@ body {
   margin: 0;
   background-color: #000;
 }
-p {
-  text-align: center;
-  color: #FFF;
-}       
 .topnav {
   position: fixed;
   top: 0;
@@ -54,7 +50,18 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 375px;
     width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .androidimg {
+    max-width: 128px;
+  }
+  .javaimg {
+    max-width: 128px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -72,8 +79,11 @@ p {
     text-align: left;
   }
 }
+#me {
+  padding-top: 30px;
+}
 h1 {
-  padding-left: 35px;
+  padding-left: 15px;
   color: #FFF;
 }
 #descricao {
@@ -92,6 +102,26 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
   color: #000;
+}
+.tech {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  padding-bottom: 55px;
+}
+#techtxt {
+  background-color: #FFF;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
 }
 .fa-bars {
   color: #9A93F2;
@@ -140,7 +170,7 @@ h1 {
   margin-right: auto;
 }
 h4 {
-  padding-left: 7.5px;
+  padding-left: 15px;
   text-align: left;
   color: #FFF;
 }
