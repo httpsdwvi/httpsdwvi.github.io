@@ -17,7 +17,7 @@ document.addEventListener("click", function(){
   if(back !== null) {
     backTop()
 }
-})
+});
 
 document.addEventListener("click", function(){
 const iconShows = event.target.closest('.icon');
